@@ -6,7 +6,7 @@ publishDir = "Public"
 
 [params]
     name = "Thomas Brown"
-    description = ""
+    description = "Data Scientist and Statistician"
     email = ""
     phone = ""
     address = ""
