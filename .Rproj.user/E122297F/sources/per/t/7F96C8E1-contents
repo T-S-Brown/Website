@@ -1,0 +1,4 @@
+
+# Set these options
+options(blogdown.publishDir = "/Users/Thomas/Dropbox/Blog/Website/Public")
+options(servr.daemon = TRUE)
