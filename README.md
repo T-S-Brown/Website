@@ -1,5 +1,5 @@
-# Example Site for Hugo Initio Theme
+# Repository for Personal Website
 
-Example Site for Hugo Initio Theme
+This website is built using the blogdown package in r and is deployed via Netlify. 
 
-https://github.com/miguelsimoni/hugo-initio
+https://www.tsbrown.net
