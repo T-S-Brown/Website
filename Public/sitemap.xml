@@ -3,85 +3,89 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.tsbrown.net/about/</loc>
+    <loc>/about/</loc>
   </url>
   
   <url>
-    <loc>https://www.tsbrown.net/post/2015-07-23-r-rmarkdown/</loc>
+    <loc>/cv/</loc>
+  </url>
+  
+  <url>
+    <loc>/post/2015-07-23-r-rmarkdown/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.tsbrown.net/post/vivamus-lacus-mauris/</loc>
+    <loc>/post/vivamus-lacus-mauris/</loc>
     <lastmod>2013-06-17T12:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.tsbrown.net/service/service3/</loc>
+    <loc>/service/service3/</loc>
   </url>
   
   <url>
-    <loc>https://www.tsbrown.net/categories/</loc>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.tsbrown.net/service/service1/</loc>
+    <loc>/service/service1/</loc>
   </url>
   
   <url>
-    <loc>https://www.tsbrown.net/tags/plot/</loc>
+    <loc>/tags/plot/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.tsbrown.net/post/</loc>
+    <loc>/post/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.tsbrown.net/categories/r/</loc>
+    <loc>/categories/r/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.tsbrown.net/tags/r-markdown/</loc>
+    <loc>/tags/r-markdown/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.tsbrown.net/tags/regression/</loc>
+    <loc>/tags/regression/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.tsbrown.net/service/service4/</loc>
+    <loc>/service/service4/</loc>
   </url>
   
   <url>
-    <loc>https://www.tsbrown.net/service/</loc>
+    <loc>/service/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.tsbrown.net/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.tsbrown.net/</loc>
+    <loc>/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.tsbrown.net/service/service2/</loc>
+    <loc>/service/service2/</loc>
   </url>
   
 </urlset>

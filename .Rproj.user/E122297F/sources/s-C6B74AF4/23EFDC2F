@@ -7,13 +7,13 @@
     "folds" : "",
     "hash" : "0",
     "id" : "23EFDC2F",
-    "lastKnownWriteTime" : 1519241175,
-    "last_content_update" : 1519241175539,
+    "lastKnownWriteTime" : 1519568809,
+    "last_content_update" : 1519568809626,
     "path" : "~/Dropbox/Blog/Website/themes/hugo-initio/layouts/partials/footer.html",
     "project_path" : "themes/hugo-initio/layouts/partials/footer.html",
     "properties" : {
-        "cursorPosition" : "35,113",
-        "scrollLine" : "0"
+        "cursorPosition" : "35,166",
+        "scrollLine" : "22"
     },
     "relative_order" : 5,
     "source_on_save" : false,
