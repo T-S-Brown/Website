@@ -11,7 +11,7 @@ My full CV is available [here](https://github.com/T-S-Brown/website/raw/master/c
 <br>
 
 ##### Statistician
-##### *Veramed (Septermber 2016 - Present)*
+##### *Veramed (September 2016 - Present)*
 * Designing and analysising clinical trials
 * Building machine learning models for pharmaceutical development
 
