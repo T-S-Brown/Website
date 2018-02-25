@@ -5,20 +5,19 @@ type = "cv"
 weight = 10
 +++
 
+My full CV is available [here](https://github.com/T-S-Brown/website/raw/master/content/TB_CV.pdf).
 
-[CV](https://www.tsbrown.net/TB_CV.pdf)
-### Experience
+#### Experience
+<br>
 
 ##### Statistician
 ##### *Veramed (Septermber 2016 - Present)*
-* Developing machine learning algorithms to predict clinical outcomes for patients
-* Designing and analysing clinical trials in immunology and neurology
-* Created numerous statistical simulations to assess operating characteristics of a study
-* Presenting statistical analyses and concepts to non-statistical colleagues
-* Recognised as the in-house expert in R and data visualisation
+* Designing and analysising clinical trials
+* Building machine learning models for pharmaceutical development
 
-### Education
-
+<br>
+#### Education
+<br>
 ##### Master of Science (Medical Statistics)
 ##### *London School of Hygiene and Tropical Medicine, University of London*
 ##### *(2015 - 2016)*
@@ -30,12 +29,4 @@ weight = 10
 ##### *(2011 - 2014)*
 
 <br>
-### Skills
-
-* R
-* Python
-* SQL
-* Machine Learning
-* Design and Analysis of experiments
-* Bayesian Modelling
 
