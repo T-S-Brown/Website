@@ -38,9 +38,9 @@ publishDir = "Public"
 #    weight = 5
 
 #[[menu.main]]
-#    name = "CV"
- #   weight = 5
-##    url = "/cv/"
+#    name = "cv"
+#    weight = 5
+#    url = "/cv"
 
 #[params.disqus]
 #    site = "hugo-initio-site.disqus.com"
@@ -103,7 +103,7 @@ publishDir = "Public"
     network = ""
 [[params.social]]
 	title = "email"
-	url = "mailto:tom@tsbrown.net"
+	url = "mailto:thomas@tsbrown.net"
     icon = "fa-envelope"
     footer = true
     sharethis = true
