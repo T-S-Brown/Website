@@ -10,7 +10,7 @@ publishDir = "Public"
     email = ""
     phone = ""
     address = ""
-    year = 2018
+    year = 2019
     background = ""
     favicon = "images/gt_favicon.png"
     #DateForm = "January 2, 2006"
@@ -37,7 +37,7 @@ publishDir = "Public"
 #    weight = 5
 
 [[menu.main]]
-    name = "cv"
+    name = "CV"
     url = "/cv/"
     weight = 5
 
