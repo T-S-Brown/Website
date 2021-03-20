@@ -1,110 +1,196 @@
 baseURL = "https://www.tsbrown.net/"
-languageCode = "en-us"
-title = "Thomas Brown"
-theme = "hugo-initio"
-publishDir = "Public"
+title = "Tom Brown"
+theme = "hugo-coder"
+languageCode = "en-US"
+defaultContentLanguage = "en"
+paginate = 20
+pygmentsStyle = "b2"
+pygmentsCodeFences = true
+pygmentsCodeFencesGuessSyntax = true
+# disqusShortname = "yourdiscussshortname"
 
 [params]
-    name = "Thomas Brown"
-    description = "Data Scientist and Statistician"
-    email = ""
-    phone = ""
-    address = ""
-    year = 2019
-    background = ""
-    favicon = "images/gt_favicon.png"
-    #DateForm = "January 2, 2006"
-    DateForm = ""
+author = "Tom Brown"
+description = "Tom Brown's personal site"
+keywords = "data science, analytics, statistics, blog"
+info = "Data Scientist"
+avatarURL = "profile.jpeg"
+# gravatar = "john.doe@example.com"
+footerContent = ""
+dateFormat = "January 2, 2006"
+hideFooter = false
+hideCredits = false
+hideCopyright = false
+since = 2017
+# Git Commit in Footer, uncomment the line below to enable it.
+commit = "https://github.com/luizdepra/hugo-coder/tree/"
+rtl = false
+# Specify light/dark colorscheme
+# Supported values:
+# "auto" (use preference set by browser)
+# "dark" (dark background, light foreground)
+# "light" (light background, dark foreground) (default)
+colorScheme = "auto"
+# Hide the toggle button, along with the associated vertical divider
+hideColorSchemeToggle = false
+# Series see also post count
+maxSeeAlsoItems = 5
+# Enable Twemoji
+enableTwemoji = true
+# Custom CSS
+customCSS = []
+# Custom SCSS
+customSCSS = []
+# Custom JS
+customJS = []
 
-    showSubheader = true
-    showServices = false
-    showRecentWorks = false
-    showDownload = false
-    showClients = false
+# If you want to use fathom(https://usefathom.com) for analytics, add this section
+# [params.fathomAnalytics]
+# siteID = "ABCDE"
+# Default value is cdn.usefathom.com, overwrite this if you are self-hosting
+# serverURL = "analytics.example.com"
 
-    footerEnableContact = true
-    footerEnableFollowme = true
-    footerEnableTextWidget = true
-    footerEnableFormWidget = true
+# If you want to use plausible(https://plausible.io) for analytics, add this section
+# [params.plausibleAnalytics]
+# domain = "example.com"
+# # Default value is plausible.io, overwrite this if you are self-hosting or using a custom domain
+# serverURL = "analytics.example.com"
 
-[[menu.main]]
-    name = "home"
-    url = "/"
-    weight = 1
-    
-#[[menu.main]]
-#    name = "blog"
-#    url = "/post/"
-#    weight = 5
+# If you want to use goatcounter(https://goatcounter.com) for analytics, add this section
+# [params.goatCounter]
+# code = "code"
 
-#[[menu.main]]
-#    name = "cv"
-#    weight = 5
-#    url = "/cv"
+# If you want to use Cloudflare Web Analytics(https://cloudflare.com) for analytics, add this section
+# [params.cloudflare]
+# token = "token"
 
-#[params.disqus]
-#    site = "hugo-initio-site.disqus.com"
+# If you want to use Matomo(https://matomo.org) for analytics, add this section
+# [params.matomo]
+# # Default value is "1", overwrite this if you are cloud-hosting
+# siteID = "ABCDE"
+# # For cloud-hosting, use provided URL, e.g. example.matomo.cloud
+# serverURL = "analytics.example.com"
 
-#[params.sharethis]
-#    property = "123456789012345678901234"
-#    custom = true
+# If you want to use Google Tag Manager(https://analytics.google.com/) for analytics, add this section
+# [params.googleTagManager]
+# id = "gid"
 
-[params.google.analytics]
-    trackerID = "UA-109464939-1"
+# If you want to implement a Content-Security-Policy, add this section
+[params.csp]
+childsrc = ["'self'"]
+fontsrc = ["'self'", "https://fonts.gstatic.com", "https://cdn.jsdelivr.net/"]
+formaction = ["'self'"]
+framesrc = ["'self'"]
+imgsrc = ["'self'"]
+objectsrc = ["'none'"]
+stylesrc = [
+  "'self'",
+  "'unsafe-inline'",
+  "https://fonts.googleapis.com/",
+  "https://cdn.jsdelivr.net/"
+]
+scriptsrc = ["'self'", "'unsafe-inline'", "https://www.google-analytics.com"]
+prefetchsrc = ["'self'"]
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
 
 [[params.social]]
-	title = "facebook"
-	url = "https://www.facebook.com/nickname"
-    icon = "fa-facebook-square"
-    footer = false
-    sharethis = false
-    network = "facebook"
+name = "Github"
+icon = "fa fa-github"
+weight = 1
+url = "https://github.com/T-S-Brown/"
+
+# [[params.social]]
+# name = "Gitlab"
+# icon = "fa fa-gitlab"
+# weight = 2
+# url = "https://gitlab.com/johndoe/"
+
+# [[params.social]]
+# name = "Twitter"
+# icon = "fa fa-twitter"
+# weight = 3
+# url = "https://twitter.com/johndoe/"
+
 [[params.social]]
-	title = "twitter"
-	url = "https://twitter.com/nickname"
-    icon = "fa-twitter-square"
-    footer = false
-    sharethis = false
-    network = "twitter"
-[[params.social]]
-	title = "instagram"
-	url = "https://www.instagram.com/nickname"
-    icon = "fa-instagram"
-    footer = false
-    sharethis = false
-    network = ""
-[[params.social]]
-	title = "google+"
-	url = "https://plus.google.com/+nickname"
-    icon = "fa-google-plus-square"
-    footer = false
-    sharethis = false
-    network = "googleplus"
-[[params.social]]
-	title = "linkedin"
-	url = "https://www.linkedin.com/in/tomsouthwellbrown/"
-    icon = "fa-linkedin-square"
-    footer = true
-    sharethis = true
-    network = "linkedin"
-[[params.social]]
-	title = "tumblr"
-	url = "https://nickname.tumblr.com"
-    icon = "fa-tumblr-square"
-    footer = false
-    sharethis = false
-    network = "tumblr"
-[[params.social]]
-	title = "github"
-	url = "https://github.com/T-S-Brown"
-    icon = "fa-github"
-    footer = true
-    sharethis = false
-    network = ""
-[[params.social]]
-	title = "email"
-	url = "mailto:thomas@tsbrown.net"
-    icon = "fa-envelope"
-    footer = true
-    sharethis = true
-    network = "email"
+name = "LinkedIn"
+icon = "fa fa-linkedin"
+weight = 4
+url = "https://www.linkedin.com/in/tomsouthwellbrown/"
+
+# [[params.social]]
+# name = "Medium"
+# icon = "fa fa-medium"
+# weight = 5
+# url = "https://medium.com/@johndoe"
+
+# [[params.social]]
+# name = "RSS"
+# icon = "fa fa-rss"
+# weight = 6
+# url = "https://myhugosite.com/index.xml"
+# rel = "alternate"
+# type = "application/rss+xml"
+
+[languages.en]
+languageName = "English"
+
+[[languages.en.menu.main]]
+name = "Contact"
+weight = 1
+url = "/contact"
+
+[[languages.en.menu.main]]
+name = "About"
+weight = 1
+url = "about/"
+
+# [[languages.en.menu.main]]
+# name = "Blog"
+# weight = 2
+# url = "posts/"
+
+# [[languages.en.menu.main]]
+# name = "Projects"
+# weight = 3
+# url = "https://luizdepra.dev"
+
+# [[languages.en.menu.main]]
+# name = "Contact me"
+# weight = 5
+# url = "contact/"
+
+# [languages.pt-br]
+# languageName = "Português"
+# title = "João Ninguém"
+
+# [languages.pt-br.params]
+# author = "João Ninguém"
+# info = "Full Stack DevOps e Mágico"
+# description = "Sítio pessoal de João Ninguém"
+# keywords = "blog,desenvolvedor,pessoal"
+# footerContent = "Coloque algum texto aqui."
+
+# [[languages.pt-br.menu.main]]
+# name = "Sobre"
+# weight = 1
+# url = "about/"
+
+# [[languages.pt-br.menu.main]]
+# name = "Blog"
+# weight = 2
+# url = "posts/"
+
+# [[languages.pt-br.menu.main]]
+# name = "Projetos"
+# weight = 3
+# url = "https://luizdepra.dev"
+
+# [[languages.pt-br.menu.main]]
+# name = "Contato"
+# weight = 5
+# url = "contact/"
