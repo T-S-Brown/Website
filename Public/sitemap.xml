@@ -1,91 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://www.tsbrown.net/about/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.tsbrown.net/cv/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.tsbrown.net/post/2015-07-23-r-rmarkdown/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.tsbrown.net/post/vivamus-lacus-mauris/</loc>
-    <lastmod>2013-06-17T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.tsbrown.net/service/service3/</loc>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://www.tsbrown.net/contact/</loc>
+  </url><url>
+    <loc>https://www.tsbrown.net/authors/</loc>
+  </url><url>
     <loc>https://www.tsbrown.net/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.tsbrown.net/service/service1/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.tsbrown.net/tags/plot/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.tsbrown.net/post/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.tsbrown.net/categories/r/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.tsbrown.net/tags/r-markdown/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.tsbrown.net/tags/regression/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.tsbrown.net/service/service4/</loc>
-  </url>
-  
-  <url>
-    <loc>https://www.tsbrown.net/service/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://www.tsbrown.net/series/</loc>
+  </url><url>
     <loc>https://www.tsbrown.net/tags/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://www.tsbrown.net/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
   </url>
-  
-  <url>
-    <loc>https://www.tsbrown.net/service/service2/</loc>
-  </url>
-  
 </urlset>

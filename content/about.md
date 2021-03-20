@@ -1,6 +1,5 @@
 +++
-menu = "main"
-title = "About"
+title = "About Me"
 type = "about"
 weight = 10
 +++
@@ -10,7 +9,7 @@ I received my MSc in Medical Statistics at the London School of Hygiene and Trop
 My Interests are include building analytical tools in R and Python, Statstics, and Data Analysis. I am a proponent of the utility for data visualisation and bringing visual and interactive analytics to audiences that reach beyond the typical Statistician and Data Scientist circles.
 
 
-![about](../images/mac.jpg)
+![about](/images/img1.jpg)
 
 #### Other Interests
 
